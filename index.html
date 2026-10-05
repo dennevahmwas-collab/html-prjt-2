@@ -1,113 +1,76 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 
- <html lang="en"> 
+</head>
+<body>
 
-<head>    
-
-<meta charset="UTF-8">  
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-
- <title>Tasty Bites <i class="fa fa-bitbucket-square" aria-hidden="true"></i></title> </head>
-
- <body>   
-
- <h1>Tasty Bites Menu</h1>
-    <!-- appetizer items with descriptions -->
-    <h2>Appetizers</h2>  
-
-  <ul>     
-
-   <li>          
-
-  <strong>Caprese Salad</strong>       
-
-     <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
-
-       </li>    
-  <li>          
-
-  <strong>Samosa</strong>       
-
-     <p>triangular,meat spiced with lemon</p> 
-
-       </li> 
-    <!-- Added two more appetizer items with descriptions --> 
-
-   </ul>  
-<li>          
-
-  <strong>Bruschetta:.</strong>       
-
-     <p>Toasted crusty bread rubbed with garlic and topped with diced fresh tomatoes, basil, and olive oil. </p> 
-
-       </li> 
-  <h2>Main Courses</h2> 
-   <!--main course items start from here-->
-
-   <ul>   
-
-     <li>      
-
-      <strong>Grilled Salmon</strong>     
-
-       <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>   
-
-     </li>     
-    <ul>   
-
-     <li>      
-
-      <strong>Fillet steak</strong>     
-
-       <p>Pan-seared tenderloin served with a choice of traditional local sides (such as ugali, fries, or kienyeji greens).</p>   
-
-     </li>
-   <!-- Added two more main course items with descriptions --> 
-   
-   <li>      
-
-      <strong>fried roasted chicken</strong>     
-
-       <p><Whole chicken roasted with garlic, herbs, and butter, yielding crisp skin and juicy meat./p>   
-
-     </li>
-   </ul> 
-
-   <!--desserts items descripptions start from here-->
- <h2>Desserts</h2>  
+  <h1 class="menu-title">Delicious Bites Menu</h1>
+  <p class="menu-description">Explore our selection of mouth-watering dishes, crafted with the finest ingredients and a touch of culinary artistry.</p>
   
-  <ul>     
+  <nav class="navbar">
+    <a href="#appetizers">Appetizers</a>
+    <a href="#main-courses">Main Courses</a>
+    <a href="#desserts">Desserts</a>
+    <a href="contact.html">Reservation</a>
+  </nav>
 
-   <li>    
-
-        <strong>Chocolate Fondue</strong>     
-
-       <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
-
-    </li>    
-
-    <!-- Added two more dessert items with descriptions -->  
-
-    <li>    
-
-        <strong>Cheesecake</strong>     
-
-       <p> dense, creamy dessert with a soft cheese layer over a crushed biscuit crust.</p>    
-
-    </li>  
-  <li>    
-
-        <strong>ice cream</strong>     
-
-       <p>A frozen dairy treat made from milk, cream, and sugar</p>    
-
+  <h2 class="section-title" id="appetizers">Appetizers</h2>
+  <ul  class="menu-list">
+    <li class="menu-item">
+      <strong class="item-name">Caprese Salad</strong>
+      <p class="item-description">Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
     </li>
+    <li class="menu-item">
+      <strong class="item-name">Crispy Calamari</strong>
+      <p class="item-description">Lightly battered squid rings fried until golden, served with a zesty lemon aioli.</p>
+    </li>
+    <li class="menu-item">
+      <strong class="item-name">Stuffed Mushrooms</strong>
+      <p class="item-description">Button mushrooms filled with herbed cream cheese and topped with toasted breadcrumbs.</p>
+    </li>
+  </ul>
 
-  </ul> 
+  <h2 class="section-title" id="main-courses">Main Courses</h2>
+  <ul  class="menu-list">
+    <li class="menu-item">
+      <strong class="item-name">Grilled Salmon</strong>
+      <p class="item-description">Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>
+    </li>
+    <li class="menu-item">
+      <strong class="item-name">Truffle Risotto</strong>
+      <p class="item-description">Creamy Arborio rice slow-cooked with wild mushrooms, parmesan, and a hint of black truffle oil.</p>
+    </li>
+    <li class="menu-item">
+      <strong class="item-name">Herb-Roasted Chicken</strong>
+      <p class="item-description">Half chicken roasted with rosemary and garlic, served alongside seasonal vegetables and mashed potatoes.</p>
+    </li>
+  </ul>
 
-   <p><a href="contact.html">Contact us for reservations</a></p> 
+  <h2 class="section-title" id="desserts">Desserts</h2>
+  <ul  class="menu-list">
+    <li class="menu-item">
+      <strong class="item-name">Chocolate Fondue</strong>
+      <p class="item-description">Assorted fruits and marshmallows served with rich chocolate fondue.</p>
+    </li>
+    <li class="menu-item">
+      <strong class="item-name">Classic Tiramisu</strong>
+      <p class="item-description">Espresso-soaked ladyfingers layered with mascarpone cream and dusted with cocoa powder.</p>
+    </li>
+    <li class="menu-item">
+      <strong class="item-name">Lemon Cheesecake</strong>
+      <p class="item-description">Silky baked cheesecake on a buttery graham crust, finished with a tangy lemon curd.</p>
+    </li>
+  </ul>
+
+  <p class="reserve"><a href="contact.html">Contact us for reservations</a></p>
 
 </body>
-
- </html>
+</html>
